@@ -43,6 +43,7 @@ Users who locked in 5,000,000 Dark Coin by February 19, 2021 are provided with a
 The remaining 100,000,000 tokens in the creator / developer wallets are used to disburse the early backer air drop, as well as future
 air drops the community decides to distribute (e.g., rewards to users for our logo contest)
 
-Creater and Developer Wallet 2 will not sell or transfer any of the initial 100,000,000 Dark Coin without approval from the community,
-as these funds are to be used to provide additional liquidity and fund / promote the project as it expands. Though these wallets will 
-"buy back" Dark Coin using personal funds, in which the tokens that were "bought back" can be used at the discretion of the owner.
+Creater and Developer Wallet 2 will not sell or transfer any of the initial 100,000,000 Dark Coin without disclosing details to the community
+for approval, as these funds are to be used to provide additional liquidity and fund / promote the project as it expands. 
+
+The creator/dev wallets will "buy back" Dark Coin using personal funds, in which the tokens that were "bought back" can be used at the discretion of the owner.
