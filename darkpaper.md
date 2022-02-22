@@ -18,6 +18,8 @@ Our dapp will also allow users to stake their Dark Coin for rewards.
 
 Wallet Information:
 
+Asset Information on AlgoExplorer: https://algoexplorer.io/asset/601894079
+
 Creator / Developer Wallet: AL6F3TFPSZPF3BSVUFDNOLMEKUCJJAA7GZ5GF3DN3Q4IVJVNUFK76PQFNE
 
 Developer Wallet 2: XQVJTVC7TAJ2SHQ7FDTD44UX2XYJNLNKATK3YBM2R2I5JVNKOGR4XDT4G4
