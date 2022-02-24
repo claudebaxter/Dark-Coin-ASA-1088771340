@@ -1,18 +1,10 @@
 Project Description:
 
-Dark Coin is an experimental "grassroots" community project that is working to develop and expand the Algorand ASA defi space. 
-Dark Coin will eventually be managed by a decentralized autonomous organization (DAO), meaning that the project is collectively 
-owned / managed by its members based on specific rules enforced by the blockchain.
+Dark Coin is an experimental "grassroots" community project that is working to develop and expand the Algorand ASA defi space. Dark Coin will eventually be managed by a decentralized autonomous organization (DAO), meaning that the project is collectively owned / managed by its users based on specific rules enforced by the blockchain and smart contracts.
 
-The Dark Coin team is developing a browser based dapp that will be accessed via our website, https://dark-coin.io, in which 
-users can execute various smart contracts and transactions on Algorand directly from this platform.
+The Dark Coin team is developing a browser based dapp that will be accessed via our website, https://dark-coin.io. Users will be able to swap Algorand & ASAs, create liquidity pools, and stake their Dark Coin for rewards.
 
-Being "community driven," the users of our dapp will be able to use a governance protocol to make decisions on the projects 
-direction/future. Governance will allow users to stake Dark Coin, cast votes, propose changes, and earn rewards for participation.
-
-Our dapp also allows users to create liquidity pool pairs, and add liquidity to existing pool pairs using smart contracts.
-
-Our dapp will also allow users to stake their Dark Coin for rewards.
+Being "community driven," the users of our dapp will also be able to use a governance protocol to make decisions on the projects direction/future. Our governance will allow users to stake Dark Coin, cast votes, propose changes, and earn rewards for participation.
 
 
 
@@ -32,11 +24,10 @@ Liquidity Lock Wallet (80% of circulating supply, courtesy of Tinylock smart con
 
 Tokenomics:
 
-With a total supply of 500,000,000, the Dark Coin token was minted on Algorand blockchain Saturday, February 12, 2022.
+With a total supply of 500,000,000, Dark Coin was minted on Algorand blockchain Saturday, February 12, 2022.
 
 400,000,000 of the total supply was transferred from the creator wallet to the liquidity pool wallet on Tinyman.org so that
-users can buy/sell the asset, and can contribute additional liquidity to the pool to support the project. User provided liquidity
-does not need to be locked, so users are able to withdraw / deposit liquidity from the pool as desired.
+users can buy/sell the asset, and can contribute additional liquidity to the pool to support the project.
 
 Users who locked in 5,000,000 Dark Coin by February 19, 2021 are provided with an initial early backer air drop of 1,000,000 Dark Coin.
 
