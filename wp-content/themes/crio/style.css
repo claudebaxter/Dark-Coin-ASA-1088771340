@@ -1,0 +1,36 @@
+/*
+Theme Name: Crio
+Author: BoldGrid
+Theme URI: https://www.boldgrid.com/themes/crio
+Author URI: https://www.boldgrid.com/
+Description: Crio is a WordPress SuperTheme that allows front-end designers, developers and other web professionals to create without bounds or restrictions.  Crio’s advanced customization options are completely integrated with the WordPress Customizer API, providing you with a powerful, but familiar interface to customize your website. Our integration gives you granular control over many elements straight from the Customizer, and even device previews so you can see how your site looks on different devices. Crio’s unique color palette system keeps colors consistent across your site. Drag and drop colors in your palette to increase or decrease the usage of that color throughout your website. Use the advanced controls to create a custom Header, Footer, or Blog Page layout. Be Bold and stand above the rest with Crio by BoldGrid!
+Version: 2.13.2
+Requires at least: 5.5
+Tested up to: 5.9
+Requires PHP: 5.6
+License: GPL-3.0-or-later
+License URI: https://www.gnu.org/licenses/gpl-3.0-standalone.html
+Text Domain: crio
+Tags: news, blog, e-commerce, sticky-post, theme-options, threaded-comments, full-width-template, footer-widgets, featured-images, flexible-header, custom-header, custom-logo, custom-background, custom-colors, custom-menu, editor-style, translation-ready, left-sidebar, right-sidebar, grid-layout, one-column, two-columns, three-columns, four-columns
+
+Copyright (C) 2020 BoldGrid
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 3
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+*/
+
+#toplevel_page_crio .wp-menu-image:before {
+	content: "\e900";
+	font-family: 'boldgrid';
+}
