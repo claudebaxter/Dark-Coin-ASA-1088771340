@@ -1,0 +1,96 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.sm.bgc-header-template-menu {
+	display: flex;
+	width: 100%;
+	height: 100%;
+}
+
+
+.template-header .boldgrid-shortcode,
+.template-header .boldgrid-shortcode [class*="menu-container"],
+.mce-content-body.content.post-type-crio_header_template .boldgrid-shortcode,
+.mce-content-body.content.post-type-crio_header_template .boldgrid-shortcode .wpview.wpview-wrap,
+.mce-content-body.content.post-type-crio_header_template .boldgrid-shortcode [class*="menu-container"]{
+	height: auto;
+}
+
+.site-header header.template-header {
+	border:none;
+}
+
+p.bgc_logo_placeholder {
+	position: relative;
+}
+
+p.bgc_logo_placeholder span.dashicons {
+	width: 100px;
+	height: 100px;
+}
+
+p.bgc_logo_placeholder span.dashicons:before {
+	font-size: 100px;
+	color: gray;
+}
+
+p.bgc_logo_placeholder span.placeholder_text {
+	text-align: center;
+	background-color: rgba(255,255,255,0.80);
+	padding: 0 2px;
+	position: absolute;
+	top: 35px;
+	left: 10px;
+	font-size: 16px;
+}
+
+.bgc_avatar {
+	border-radius: 50%;
+}
+
+div.site-header div.boldgrid-component-menu.standard-menu-enabled .sm-clean {
+	z-index: 200;
+}
+
+.crio-premium-site-header .sm-clean.w li:first-of-type a,
+.crio-premium-site-header .sm-clean.nw li:first-of-type a,
+.crio-premium-site-header .sm-clean.sw li:first-of-type a {
+	padding-left: 0px;
+}
+
+.crio-premium-site-header .sm-clean.e li:last-of-type a,
+.crio-premium-site-header .sm-clean.ne li:last-of-type a,
+.crio-premium-site-header .sm-clean.se li:last-of-type a {
+	padding-right: 0px;
+}
+
+.crio-premium-site-header #masthead .boldgrid-section .full-width .row .sm-clean {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.template-header .row {
+	display: flex;
+}
+
+.boldgrid-component-menu ul.sm.flex-column {
+	display: block;
+}
+
+.boldgrid-component-menu ul.sm.flex-column li {
+	float:initial;
+}
+
+.boldgrid-component-menu ul.sm.flex-column.c li a {
+	text-align: center;
+}
+
+.boldgrid-component-menu ul.sm.flex-column.e li a {
+	text-align: right;
+}
+
+.boldgrid-component-menu ul.sm.flex-column.w li a {
+	text-align: left;
+}
