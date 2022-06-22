@@ -10,29 +10,11 @@ There is no guarantee or promise made from the creator / developers that this pr
 Investing is always a risk. Anyone considering investing in this project, or crypto in general, should conduct thorough research and consider seeking guidance from a financial advisor. Never invest money that you cannot afford to lose.
 
 
-# The state of DEFI on Algorand
-
-Algorand was founded in 2017, approximately 5 years before the start of the Dark Coin project. Like Ethereum, an ecosystem of tokens and Decentralized Finance (DEFI) applications can be built on top of the Algorand blockchain. 
-
-At this time, there are three Decentralized Exchanges (DEX) recognized by the Algorand Foundation known as: Tinyman, Algofi, and Algodex. There are also Decentralized Applications (DAPP) for yield farming, DEFI lending and Art / NFT marketplaces. At this time, the Algorand Foundation only recognizes one yield farming DAPP, known as Yieldly, and one DEFI lending application, known as Opulous. This leaves us with NFT Marketplaces, which at this time the Algorand Foundation recognizes ten projects: ZestBloom, Artsquare, Aorist, Abris, Dartroom, Republic, AlgoGems, blocsport, asalp, and MintDropz.
-
-While there are plenty of options to buy and sell NFTs, the Algorand DEFI ecosystem only has three DEXs and two DAPPs recognized by the Algorand Foundation. This causes problems in terms of decentralization; with there being so few services available to use, if one of these services is compromised, it can cause major disruption to the Algorand DEFI ecosystem and market. This is not an attack on the existing projects, as we have great respect for all of the ones mentioned above—it is simply an observation because of the limited number of DEFI services available, not counting NFT Marketplaces. 
-
-A prime example of this problem is when the Tinyman DEX was compromised by an exploit that malicious users took advantage of to gain access to assets they were not entitled to. The Tinyman team did an amazing job in fixing this issue and keeping transparent communications open with users, and has since resumed normal functions. But the effects of Tinymans services being suspended--even for a brief period--caused a major negative impact on the Algorand DEFI ecosystem.
-
-Another issue our team has observed with the Algorand DEFI ecosystem is the limited amount of services available to send and receive private transactions with the use of a transaction mixing protocol, which adds a layer of obfuscation to transactions. The Algorand Foundation has verified the Algoneer project, though they do not list it on their DEFI website. Aside from this one project, which we have great respect for, we are not aware of any other projects that provide this service on Algorand.
-
-
 # Dark Coin product description and proposed use cases
 
-The Dark Coin team is developing a browser based DAPP that will be accessed via our website, https://dark-coin.io. Users will be able to swap Algorand & ASAs, create liquidity pools, and stake their Dark Coin for rewards. 
+The Dark Coin team is developing a browser based DAPP that will be accessed via our website, https://dark-coin.io. Our users will be able to send and receive private transactions on the Algorand network.
 
 Being community driven, the users of our DAPP will also be able to use a governance protocol to make decisions on the project’s direction/future. Our governance will allow users to stake Dark Coin, cast votes, propose changes, and earn additional rewards for participation in governance.
-
-Lastly, the Dark Coin DAPP will also allow users to send and receive private transactions, through the use of a transaction mixing protocol.
-
-In short, we seek to expand the number of DEFI services available in the Algorand DEFI ecosystem. While we have listed the use cases and services we are currently interested in producing, we included a governance protocol to allow our users to propose new use cases or make changes to the existing DEFI services. This way, we can respond to the demand for different utilities in a decentralized manner.
-
 
 # Dark Coin tokenomics
 
