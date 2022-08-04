@@ -5,4 +5,4 @@ Dark Coin is an experimental "grassroots" community project that is working to d
 The Dark Coin team is developing a browser based dapp that will be accessed via our website, https://dark-coin.io. Users will be able to use it to send and receive private transactions on the Algorand Network.
 
 
-Being "community driven," the users of our dapp will also be able to use a governance protocol to make decisions on the projects direction/future. Our governance will allow users to stake Dark Coin, cast votes, propose changes, and earn rewards for participation.
+Being a DAO, the users of our dapp will also be able to use a governance protocol to make decisions on the projects direction/future. Our governance will allow users to cast votes and submit proposals using NFT voting tokens, and earn rewards for participation.
