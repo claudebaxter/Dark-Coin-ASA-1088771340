@@ -60,19 +60,25 @@ ASA Creator Linkedin: https://www.linkedin.com/in/claude-baxter-787229114
 Please be aware that dates listed may change based on unfolding circumstances. The dates listed below are simply goals we are setting to hold ourselves accountable in terms of creating a sense of urgency to accomplish these tasks.
 
 Our main goal is to have a functioning closed beta produced within the next six months, by September 30, 2022. I am setting a wide margin as this will require partnering with other developers to achieve this.
+
     •	08/04/2022 it looks promising that we will meet this goal for the DAO dApp, though this date may need to be extended by a few weeks depending on how things play out. The privacy features are still in the very early stages. I would set expectations to have a functioning beta on testnet by Summer 2023.
     
 This makes partnering with a developer one of the most critical and urgent tasks we must complete. I am focusing the majority of my efforts to achieve this, ideally I want to have formed this partnership by April 30, 2022, so that we can begin serious work toward the development of the closed beta.
+
     •	08/04/2022 Anders has joined the team! We are making solid progress toward the DAO voting app.
   
 As our project grows, we will need to increase our moderation and marketing efforts. This will require bringing in members of the community as moderators on platforms such as Reddit, Discord, Twitter, and Facebook. Ideally we want the community to help select these individuals in the form of a vote. These individuals will help with the moderation of channels and assisting with communications. Ideally, we would like to accomplish this by May 31, 2022.
+
     •	We have succeeded in expanding our team, and currently have sufficient manpower for moderation and marketing efforts.
   
 We need to get Dark Coin and our icon listed across all major channels. This will be an ongoing effort as there are always new channels to apply for listings. For now, we are working to be listed on CoinMarketCap, Coingecko, Tinychart, and Algo Directory. Our teams goal is to be listed on all of these channels by May 31, 2022.
+
     •	8/4/2022 his is still an ongoing effort for most listing channels.
     
 We need to achieve verification the Algorand Foundation and AlgoExplorer. For AlgoExplorer, it looks like we will not be able to receive verification until we have a functioning open beta of our DAPP. We are still learning the requirements for verification with the Algorand Foundation. For now, the deadline to accomplish this will be set for December 2022. This date may change as more information becomes available to our team.
+
     •	We have achieved verification through Pera Wallet, but are still working to become verified by AlgoExplorer and the Algorand Foundation.
     
 We are also in the process of applying for a grant from the Algorand Foundation. We are unsure what to expect in terms of requirements so will have to wait until we receive a response on Algorand regarding our application. Once we get an answer we will update the community and this document accordingly.
+
     •	We have not been awarded any grant funds to utilize, though we have had positive communications with the Algorand Foundation and they are interested in Dark Coin, particularly the DAO functionality.
