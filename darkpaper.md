@@ -27,6 +27,8 @@ Users who locked in 5,000,000 Dark Coin by February 19, 2022 are provided with a
 
 The remaining 100,000,000 tokens in the creator / developer wallets are used to disburse the early backer air drop, as well as future air drops & contest rewards the community decides to distribute (e.g., rewards to users for our logo contest). This will also be used to partner with other developers to help fund the development costs.
 
+Profits earned from NFT Sales from the creator wallet will be split between providing liquidity and the Marketing & Development wallet.
+
 Both the Creator and Developer Wallet 2 will not sell or transfer any of the initial 100,000,000 Dark Coin without disclosing details to the community for approval, as these funds are to be used to provide additional liquidity, as well as fund and promote the project as it expands.
 
 
@@ -37,6 +39,8 @@ Asset Information on AlgoExplorer: https://algoexplorer.io/asset/601894079
 Creator / Developer Wallet: AL6F3TFPSZPF3BSVUFDNOLMEKUCJJAA7GZ5GF3DN3Q4IVJVNUFK76PQFNE (darkcoin.algo)
 
 Developer Wallet 2: XQVJTVC7TAJ2SHQ7FDTD44UX2XYJNLNKATK3YBM2R2I5JVNKOGR4XDT4G4
+
+Marketing & Development Wallet: 5QWEL3YRI4QA55BVTJYX6SACBULJPDI75SIG2YLC2T5LDOC3M7U5K3DTDQ
 
 Liquidity Pool Wallet (Tinyman): GII6U3WIVUD5FTCGP3DG7IFTETBG5IPNFOFICKOYSYM42PYA5VN6N46E3Q
 
