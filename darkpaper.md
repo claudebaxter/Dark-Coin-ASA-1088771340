@@ -9,13 +9,29 @@ There is no guarantee or promise made from the creator / developers that this pr
 
 Investing is always a risk. Anyone considering investing in this project, or crypto in general, should conduct thorough research and consider seeking guidance from a financial advisor. Never invest money that you cannot afford to lose.
 
-
 # Dark Coin product description and proposed use cases
 
-The Dark Coin team is developing a browser based DAPP that will be accessed via our website, https://dark-coin.io. Our users will be able to send and receive private transactions on the Algorand network.
+The Dark Coin team is developing a browser based DAPP located at https://dark-coin.com. Our users are able to send and receive private transactions on the Algorand network. The public beta has been released as of May 10, 2022. 
 
 Being a DAO, the users of our dapp will also be able to use a governance protocol to make decisions on the projects direction/future. Our governance dApp will allow users to cast votes and submit proposals using NFT voting tokens. 
 
+# Dark Coin Transaction Mixer
+
+As of May 10, 2022, the Dark Coin Transaction Mixer public beta has gone live.
+
+The mixer has been added to the Dark Coin dApp, which can be located at https://dark-coin.com and the repository for our dApp can be found at https://github.com/ToysToTinkerWith/DarkCoin .
+
+The transaction mixer works by allowing users to send pre-set amounts of Algorand from one wallet to another with a layer of privacy. This is accomplished by mixing multiple transactions together before sending them to the recipient addresses in random order using a smart contract (algoexplorer link to application: https://algoexplorer.io/application/885581567 ).
+
+Once a user has connected their wallet at dark-coin.com, more options will appear on the display, and the user can select the "mixer" tab. Once the user opts in to the application, the options for the mixer will appear on the display.
+
+Users can send 5 different pre-set amounts ranging from 5 Algos to 500 Algos (5A, 20A, 50A, 100A, and 500A) to a designated recipient wallet. The user can select the amount they wish to send, and enter the recipients address and submit the transaction. Once the transaction is signed, the Algos will be sent to the mixer wallet address (43EVULWFT4RU2H7EZH377SAVQJSJO5NZP37N3Y5DZ7PGUXOETKW7VWDIOA). Once four transactions have been sent to the mixer for the same amount, it will send the amounts to the receiving wallets. The amount of pending transactions in each option is displayed on dark-coin.com as well as the in the global state on the application (885581567).
+
+Currently, there is a 2% fee to send a transaction through the mixer that is paid in Algos. Once we are through testing, users will be able to use Dark Coin to pay for mixer fees at the reduced rate of 1% to send a transaction.
+
+This process adds a layer of privacy to transactions. If you view these transactions on a platform like Algoexplorer, you can see transactions going into and out of the mixer, but would not be able to connect a specific sender wallet to a specific receiving wallet.
+
+Mixer Disclaimer: Our transaction mixer does not provide 100% anonymity and we do not support the use of this application for any sort of criminal activity. If it is determined that someone has used this application for criminal activity, for example, sending stolen Algos--we will assist authorities as needed in providing the receiving address. To be able to do this, we will maintain a private log of sending and receiving address pairs. This application is just to add a reasonable degree of privacy to users who wish to send or receive Algos without the sender / receiver being directly linked for anyone who chooses to view the Algorands immutable ledger. 
 
 # Dark Coin tokenomics
 
