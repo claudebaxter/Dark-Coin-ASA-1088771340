@@ -31,7 +31,7 @@ Currently, there is a 2% fee to send a transaction through the mixer that is pai
 
 This process adds a layer of privacy to transactions. If you view these transactions on a platform like Algoexplorer, you can see transactions going into and out of the mixer, but would not be able to connect a specific sender wallet to a specific receiving wallet.
 
-Mixer Disclaimer: Our transaction mixer does not provide 100% anonymity and we do not support the use of this application for any sort of criminal activity. If it is determined that someone has used this application for criminal activity, for example, sending stolen Algos--we will assist authorities as needed in providing the receiving address. To be able to do this, we will maintain a private log of sending and receiving address pairs. This application is just to add a reasonable degree of privacy to users who wish to send or receive Algos without the sender / receiver being directly linked for anyone who chooses to view the Algorands immutable ledger. 
+Mixer Disclaimer: Our transaction mixer does not provide 100% anonymity and we do not support the use of this application for any sort of criminal activity. This application only adds reasonable degree of privacy to users who wish to send or receive Algos without the sender / receiver being directly linked for anyone who chooses to view the Algorands immutable ledger. 
 
 # Dark Coin tokenomics
 
