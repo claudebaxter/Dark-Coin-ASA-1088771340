@@ -40,7 +40,7 @@ A technical summary/outline of the process looks like this:
 
 *Please be aware that we are using a centralized database solution to store the recipient addresses to keep them "off chain" until the shuffle, to avoid the sender address from being linked directly to the recipient address. This is not a trustless/decentralized solution in the current form. The final version of this application will be, but we have not reached that stage of development yet. It is important to us for transparency that our users understand the inherent risks associated with a centralized solution. Our team does not want to mislead any of our users and wanted to be clear on these details.
 
-*It is also important to note that once a "mix" has been shuffled out of the mixer, that the database entries will be overwritten by the next batch of queued transactions sent into the mixer. The maximum number of transactions the mixer will accept in the queue is 16, so theoretically, the maximum number of records stored in the database will not exceed this number. 
+*It is also important to note that once a "mix" has been shuffled out of the mixer, that the old database entries will be overwritten by the next batch of queued transactions sent into the mixer. The maximum number of transactions the mixer will accept in the queue is 16, so theoretically, the maximum number of records stored in the database will not exceed this number. 
 
 Steps 7-8 are currently performed manually by Claude. If the verification check passes, the creator wallet signs off on the mix. We are working to automate this process, and potentially use the multi-sig feature as part of this process to increase security.
 
