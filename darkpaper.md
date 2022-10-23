@@ -29,8 +29,8 @@ This process adds a layer of privacy to transactions. If you view these transact
 
 A technical summary/outline of the process looks like this:
 
-   1. Once connected/opted in, the user selects the amount of Algos they wish to send, and enters the receiving wallet address with the GUI.
-   2. The user chooses to pay 2% fees with Algos, or 1% fees with Dark Coin.
+   1. Once connected/opted in, the user selects the amount of Algos they wish to send, and chooses to pay 2% fees with Algos, or 1% fees with Dark Coin.
+   2. The user enters the receiving wallet address with the GUI.
    3. When ready, the user must tap/click the "mix" button and sign the transaction.
    4. The receiving wallet is temporarily logged in an off-chain database and funds are sent to the mixer.*
    5. The confirmation round from the initial signed transaction is written into the database entry and paired to the receiving wallet.
