@@ -36,7 +36,7 @@ A technical summary/outline of the process looks like this:
    3. When ready, the user must tap/click the "mix" button and sign the transaction.
    4. The receiving wallet is temporarily logged in an off-chain database and funds are sent to the mixer.*
    5. The confirmation round from the blockchain is logged with the local database timestamp entry.
-   6. When enough trasnactions are queued, the receiving wallets are written in to the outgoing transactions in random order using a smart contract.
+   6. When enough transactions are queued, the receiving wallets are written in to the outgoing transactions in random order using a smart contract.
    7. Before the funds are shuffled out, the confirmation round and time stamp logs are verified to confirm the receiver wallet has not been altered in the database.
    8. If this verification check does not pass, the funds will be returned to the sending wallets.
 
