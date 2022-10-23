@@ -13,9 +13,7 @@ Investing is always a risk. Anyone considering investing in this project, or cry
 
 The Dark Coin team is developing a browser based DAPP located at https://dark-coin.com. Our users are able to send and receive private transactions on the Algorand network. The public beta has been released as of May 10, 2022. 
 
-Being a DAO, the users of our dapp will also be able to use a governance protocol to make decisions on the projects direction/future. Our governance dApp will allow users to cast votes and submit proposals using NFT voting tokens. 
-
-The Dark Coin DAO has voted for the team to develop privacy solutions for Algorand DeFi users. Per the voting results, this is the main focus of the Dark Coin project and team.
+Being a DAO, the users of our dapp will also be able to use a governance protocol to make decisions on the projects direction/future. Our governance dApp will allow users to cast votes and submit proposals using NFT voting tokens.
 
 # Dark Coin Transaction Mixer
 
@@ -35,12 +33,14 @@ A technical summary/outline of the process looks like this:
    2. The user chooses to pay 2% fees with Algos, or 1% fees with Dark Coin.
    3. When ready, the user must tap/click the "mix" button and sign the transaction.
    4. The receiving wallet is temporarily logged in an off-chain database and funds are sent to the mixer.*
-   5. The confirmation round from the blockchain is logged with the local database timestamp entry.
+   5. The confirmation round from the initial signed transaction is written into the database entry and paired to the receiving wallet.
    6. When enough transactions are queued, the receiving wallets are written in to the outgoing transactions in random order using a smart contract.
-   7. Before the funds are shuffled out, the confirmation round and time stamp logs are verified to confirm the receiver wallet has not been altered in the database.
+   7. Before the funds are shuffled out, the confirmation round records are verified to confirm the receiver wallet has not been altered in the database.
    8. If this verification check does not pass, the funds will be returned to the sending wallets.
 
-*After 16 receivers have been logged, the application begins to overwrite new entries added to the log starting with the oldest entry.
+*Please be aware that we are using a centralized database solution to store the recipient addresses to keep them "off chain" until the shuffle, to avoid the sender address from being linked directly to the recipient address. This is not a trustless/decentralized solution in the current form. The final version of this application will be, but we have not reached that stage of development yet. It is important to us for transparency that our users understand the inherent risks associated with a centralized solution. Our team does not want to mislead any of our users and wanted to be clear on these details.
+
+*It is also important to note that once a "mix" has been shuffled out of the mixer, that the database entries will be overwritten by the next batch of queued transactions sent into the mixer. The maximum number of transactions the mixer will accept in the queue is 16, so theoretically, the maximum number of records stored in the database will not exceed this number. 
 
 Steps 7-8 are currently performed manually by Claude. If the verification check passes, the creator wallet signs off on the mix. We are working to automate this process, and potentially use the multi-sig feature as part of this process to increase security.
 
