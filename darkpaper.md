@@ -13,13 +13,13 @@ Investing is always a risk. Anyone considering investing in this project, or cry
 
 The Dark Coin team is developing a browser based DAPP located at https://dark-coin.com. Our users are able to send and receive private transactions on the Algorand network. The public beta has been released as of May 10, 2022. 
 
-Being a DAO, the users of our dapp will also be able to use a governance protocol to make decisions on the projects direction/future. Our governance dApp will allow users to cast votes and submit proposals using NFT voting tokens.
+Being a DAO, the users of our dapp will also be able to use a governance protocol to make decisions on the projects direction/future. Our governance dApp will allow users to cast votes and submit proposals using NFT voting tokens. Here is a link to a demonstration video for the voting DAPP: https://vimeo.com/759600718/7a65b8b2a6.
 
 # Dark Coin Transaction Mixer
 
 As of October 10, 2022, the Dark Coin Transaction Mixer public beta has been released. Users are able to send transactions between wallets using the mixer to add a layer of privacy by obfuscating the connection between the sending and receiving wallets.
 
-The mixer has been added to the Dark Coin app, which can be located at https://dark-coin.com and the repository for our app can be found at https://github.com/ToysToTinkerWith/DarkCoin. You can view the application on Algoexplorer here: https://algoexplorer.io/application/885581567. 
+The mixer has been added to the Dark Coin app, which can be located at https://dark-coin.com and the repository for our app can be found at https://github.com/ToysToTinkerWith/DarkCoin. An instructional demonstration video can be found here: https://vimeo.com/763136434/83b69d100a and you can view the application on Algoexplorer here: https://algoexplorer.io/application/885581567. 
 
 After connecting and opting in, our users can send 5 different pre-set amounts of Algos ranging from 5A to 500A (5A, 20A, 50A, 100A, and 500A). The user can select the amount they wish to send, and enter the recipients address and submit the transaction. Once the transaction is signed, the Algos will be sent to the mixer wallet address (43EVULWFT4RU2H7EZH377SAVQJSJO5NZP37N3Y5DZ7PGUXOETKW7VWDIOA). Once four transactions have been queued in the mixer for the same amount, the outgoing transactions are shuffled out to the receiving wallets. The amount of pending transactions in each option is displayed on dark-coin.com as well as the in the global state on the application (885581567).
 
