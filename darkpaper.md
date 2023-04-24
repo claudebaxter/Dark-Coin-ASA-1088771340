@@ -50,7 +50,13 @@ Support: For technical inquiries, please email the developer team at team@dark-c
 
 # Dark Coin tokenomics
 
-Dark Coin was minted on the Algorand blockchain Saturday, February 12, 2022, with a total supply of 500,000,000 tokens.
+The Dark Coin V2 token has been minted on April 20th, 2023, with a total supply of 500,000,000 tokens, with up to 6 decimals, making th atomic unit for the Dark Coin V2 token 0.000001 DARKCOIN. The new asset number is 1088771340. 
+
+The project liquidity from the V1 pool was secured by Claude when it was found that one of our biggest holder and liquidity providers wallet was compromised by the MyAlgo hack, at which time the tokens were transferred to a known malicious address. This wallet was not owned by the project and was held by an independent supporter of the project. The project liquidity funds were secured before the hacker was able to sell, which was announced to the community with the advice to sell the V1 token and pull liquidity from the V1 pool, which greatly reduced the amount of algos the hacker will be able to extract from the project and our holders and luiqidity providers. 
+
+Because many holders lost out unfairly due to the hack and announcement to sell, the Dark Coin DAO has voted to approve a reimbursement action plan, where these users will be reimbursed the value of what they lost via the use of the V2 Dark Coin once the V2 liquidity pool is initialized in late April / Early May 2023. As of the time of adding this update (April 24, 2023), the DAO council members still will need to vote on multiple measures in order to complete this process. The DAO will vote to approve the curated snapshot data, and a finalized reimbursement plan before these funds will be distributed via the use of a smart contract that users will be able to connect their wallet to and claim.
+
+The Dark Coin V1 token was minted on the Algorand blockchain Saturday, February 12, 2022, with a total supply of 500,000,000 tokens.
 
 400,000,000 Dark Coin was transferred from the creator wallet to create the liquidity pool on Tinyman so that users can exchange the asset, and can contribute additional liquidity to the pool to support the project. The LP tokens received for this have been locked through May 31, 2022, on Tinylock. Because we intend to keep this liquidity locked permanently, a new vote will be held before the end of May 2023 for the community to decide if we should continue to stay locked with Tinylock, or use another service, and for how long. This is simply to ensure that we are locking the liquidity in a way that is secure and responsible.
 
