@@ -1,4 +1,5 @@
-# Dark-Coin-ASA-601894079
+# Dark-Coin-ASA-1088771340
+
 Dark Coin is an experimental "grassroots" community project that is working to develop and expand the Algorand ASA defi space. Dark Coin is managed by a decentralized autonomous organization (DAO), meaning that the project is collectively owned and democratically managed by its members based on specific rules enforced by the blockchain.
 
 The Dark Coin team is developing a dApp that will be accessed via our website, https://dark-coin.com. Users are currently able to use it to vote on governance proposals, and eventually will be able to send and receive private transactions on the Algorand Network.
