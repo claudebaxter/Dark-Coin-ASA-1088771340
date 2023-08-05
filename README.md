@@ -1,16 +1,16 @@
-# Dark Coin (Dark-Coin-ASA-1088771340)
+# Dark Coin (ASA-1088771340)
 
 Dark Coin is an innovative community-driven project within the Algorand ecosystem, focused on expanding the possibilities of Algorand Standard Assets (ASAs) in the decentralized finance (DeFi) space. It operates as a decentralized autonomous organization (DAO), giving collective ownership and democratic management power to its members through blockchain-enforced rules.
 
 ## Key Features:
 
-- **Decentralized Governance**: Dark Coin enables users to actively participate in shaping the project's future. Through our dApp, users can cast votes and submit proposals using NFT-based voting tokens. This allows the community to influence decisions on project direction, governance, and asset management.
+- Decentralized Governance: Dark Coin enables users to actively participate in shaping the project's future. Through our dApp, users can cast votes and submit proposals using NFT-based voting tokens. This allows the community to influence decisions on project direction, governance, and asset management.
 
-- **Private Transactions**: Users can securely send and receive private transactions on the Algorand Network, ensuring confidentiality and privacy in financial interactions.
+- Private Transactions: Users can securely send and receive private transactions on the Algorand Network, ensuring confidentiality and privacy in financial interactions.
 
-- **Character NFT Assets and AI Arena**: Generate unique character NFT assets that can be engaged in battles within the Dark Coin AI Arena, providing an engaging and interactive experience for users.
+- Character NFT Assets and AI Arena: Generate unique character NFT assets that can be engaged in battles within the Dark Coin AI Arena, providing an engaging and interactive experience for users.
 
-- **Marketplace**: The project's marketplace allows users to purchase utility assets, fostering a dynamic ecosystem for users to engage with the project's offerings.
+- Marketplace: The project's marketplace allows users to purchase utility assets, fostering a dynamic ecosystem for users to engage with the project's offerings.
 
 ## Governance and Control:
 
