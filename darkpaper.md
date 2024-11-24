@@ -10,42 +10,113 @@ Investing in Dark Coin or any cryptocurrency involves risks. The project's creat
 
 Dark Coin is developing a browser-based DApp accessible at https://dark-coin.com, enabling users to send and receive private transactions on the Algorand network. The public beta was launched on May 10, 2022. Through the governance protocol, users can influence the project's direction using NFT-based voting tokens. Watch the voting DApp demonstration video at https://vimeo.com/759600718/7a65b8b2a6.
 
-# Dark Coin Transaction Mixer
+# Dark Coin Champions
 
-As of October 10, 2022, the Dark Coin Transaction Mixer public beta has been released. Users are able to send transactions between wallets using the mixer to add a layer of privacy by obfuscating the connection between the sending and receiving wallets.
+Join the fray with the Dark Coin Champions, an ARC19 series featuring swappable traits and integration into Dark Coin Arena! Engage in battles, ally against bosses, and ascend the leaderboard for rewards. Each champion boasts base traits plus an additional trait for a strategic edge. Stay tuned for Gen1 trait releases as separate collections—collect, swap, and style your champion for battle supremacy or just to stand out.
 
-The mixer has been added to the Dark Coin app, which can be located at https://dark-coin.com and the repository for our app can be found at https://github.com/ToysToTinkerWith/DarkCoin. An instructional demonstration video can be found here: https://vimeo.com/763136434/83b69d100a and you can view the application on Algoexplorer here: https://algoexplorer.io/application/885581567. 
+# Champion Arena
 
-After connecting and opting in, our users can send 5 different pre-set amounts of Algos ranging from 5A to 500A (5A, 20A, 50A, 100A, and 500A). The user can select the amount they wish to send, and enter the recipients address and submit the transaction. Once the transaction is signed, the Algos will be sent to the mixer wallet address (43EVULWFT4RU2H7EZH377SAVQJSJO5NZP37N3Y5DZ7PGUXOETKW7VWDIOA). Once four transactions have been queued in the mixer for the same amount, the outgoing transactions are shuffled out to the receiving wallets. The amount of pending transactions in each option is displayed on dark-coin.com as well as the in the global state on the application (885581567).
+Step into the innovative Dark Coin Champions Arena, where creativity meets competition. Customize your Champion using the ARC19 trait swapper. Choose rare traits for stronger attacks and higher defense. Engage in thrilling battles against other users, wagering Dark Coin for a chance at victory. The AI generates captivating battle stories and selects a winner, who claims the wagered Dark Coin. Immerse yourself in a world of imagination and strategy, where your creations come to life and compete for glory and rewards. Tournaments are held at regular intervals with up to 4 winners per tournament receiving prizes from vault.darkcoin.algo
 
-To use the mixer, users have the option to pay the fees in Algorand at the rate of 2% of the total transaction, or can pay the fees using Dark Coin at the rate of 1%.
+# Dragons Horde
 
-This process adds a layer of privacy to transactions. If you view these transactions on a platform like Algoexplorer, you can see transactions going into and out of the mixer, but would not be able to directly connect a specific sender wallet to a specific receiving wallet.
+Dark Coin holders, get ready to enter the lair of the Dragon! "Dragon's Horde" is here, offering an exciting chance for champions to fight for glory and Dark Coin treasures. Gather your champion NFTs and prepare for a thrilling battle where only the boldest will reap the rewards!
 
-A technical summary/outline of the process looks like this:
+Game Highlights:
 
-   1. Once connected/opted in, the user selects the amount of Algos they wish to send, and chooses to pay 2% fees with Algos, or 1% fees with Dark Coin.
-   2. The user enters the receiving wallet address with the GUI.
-   3. When ready, the user must tap/click the "mix" button and sign the transaction.
-   4. The receiving wallet is temporarily logged in an off-chain database and funds are sent to the mixer.*
-   5. The confirmation round from the initial signed transaction is written into the database entry and paired to the receiving wallet.
-   6. When enough transactions are queued, the receiving wallets are written in to the outgoing transactions in random order using a smart contract.
-   7. Before the funds are shuffled out, the confirmation round records are verified to confirm the receiver wallet has not been altered in the database.
-   8. If this verification check does not pass, the funds will be returned to the sending wallets.
+🛡 Choose Your Moves: Each round, champions must decide their strategy—attack the mighty dragon guarding the horde, or target fellow champions in the lair. Every decision could make or break your quest for Dark Coin!
 
-*Please be aware that we are using a centralized database solution to store the recipient addresses to keep them "off chain" until the shuffle, to avoid the sender address from being linked directly to the recipient address. This is not a trustless/decentralized solution in the current form. The final version of this application will be, but we have not reached that stage of development yet. It is important to us for transparency that our users understand the inherent risks associated with a centralized solution. Our team does not want to mislead any of our users and wanted to be clear on these details.
+💰 Survive for Greater Rewards: The fewer champions left at the end, the larger the Dark Coin share each one claims. The spoils grow as the competition thins!
 
-*It is also important to note that once a "mix" has been shuffled out of the mixer, that the old database entries will be overwritten by the next batch of queued transactions sent into the mixer. The maximum number of transactions the mixer will accept in the queue is 16, so theoretically, the maximum number of records stored in the database will not exceed this number. 
+🔥 The Final Blow: The champion who delivers the killing strike on the dragon takes an extra special reward—one-fourth of the entire Dark Coin pot!
 
-Steps 7-8 are currently performed manually by Claude. If the verification check passes, the creator wallet signs off on the mix. We are working to automate this process, and potentially use the multi-sig feature as part of this process to increase security.
+But beware, if the dragon isn't defeated by the end,  no one will receive the treasure. The fate of the Dark Coin is in your hands. Will you stand strong, strike fiercely, and claim your place among legends?
 
-Mixer Disclaimer: Our transaction mixer does not provide 100% anonymity and we do not support the use of this application for any sort of criminal activity. This application only exists to add a reasonable degree of privacy to users who wish to send or receive Algos without the sender / receiver being directly linked. Imagine your regular bank account records--the general public cannot openly view your account history at any time, but the records are not 100% anonymous. Just like any monetary transaction, users of our app must ensure they are following the law at all times, and must keep their own records necessary to prove this to any governing entity. The developer team reserves the right to suspend/restrict the use of this application to any user/wallet at any time.
+Join the Dragon's Horde now, and may the best champions rise! 🐲🏆
 
-Support: For technical inquiries, please email the developer team at team@dark-coin.io. You can also message the subreddit moderator team at r/DarkCoinASA, or can join the Discord server here: https://discord.gg/xdZ6V5ybmq.
+https://dark-coin.com/arena/dragonshorde
 
-# Dark Coin AI Arena
+# Dark Coin Rewards
 
-Step into the innovative Dark Coin AI Arena, where creativity meets competition. Create unique character art NFTs using DALL·E AI, minted directly in your wallet. Craft character descriptions and define powerful attacks for your creations. Engage in thrilling battles against other users, wagering Dark Coin for a chance at victory. The AI generates captivating battle stories and selects a winner, who claims the wagered Dark Coin. Immerse yourself in a world of imagination and strategy, where your creations come to life and compete for glory and rewards.
+The Dark Coin team is offering soft staking services to Algorand DeFi projects. Simply contact our team to discuss the staking plan you would like set up, and we can assist with building a custom script. Currently, the Dark Coin Rewards system is providing the following drops:
+
+**Staking Partner Plans**
+
+*Check this list periodically to see our staking partners reward/tiers.*
+
+**AlgOctopus - Blop Token - 896650094**
+
+Frequency: Weekly  
+Start Time: 7:08am US Central / 8:08am US Eastern  
+Weekday: Friday
+
+- AlgOctopus Type I: 700 / BLOP week
+- AlgOctopus Type II: 1400 / BLOP week
+- AlgOctopus Type III: 2100 / BLOP week
+- AlgOctopus V2: 175 BLOP / week
+- AlgOctopus V2 Legendary Type: 875 BLOP / week
+
+**Algo Wizards - Wizard Gold - 1456155103**
+
+Frequency: Weekly  
+Start Time: 5pm US Central  
+Weekday: Friday
+
+- Tier 1 Collection: 10 $WIZ / week
+- Tier 2 Special: 20 $WIZ / week
+- Tier 3 1/1: 35 $WIZ / week
+
+**Algolem - Batu Algolem - 881380094**
+
+Frequency: Weekly  
+Start Time: 9am US Central (10am EST)  
+Weekday: Saturday
+
+- Tier 1 Algolem: 44 $BATU / week
+- Tier 2 Legendary Algolem: 66 $BATU / week
+- Tier 3 Krax: 11 $BATU / week
+- Tier 4 Hand Drawn Krax: 33 $BATU / week
+- Tier 5 Dralgolem: 20 $BATU / week
+- Tier 6 Alpha Dralgolem: 40 $BATU / week
+- Tier 7 Royal Krax: 20 $BATU / week
+- Tier 8 Bromo: 17 $BATU / week
+- Tier 9 Hand Drawn Bromo: 34 $BATU / week
+- Tier 10 Pixelgolem: 25 $BATU / week
+- Tier 11 Alpha Pixelgolem: 44 $BATU / week
+
+**Dark Coin - Dark Coin - 1088771340**
+
+Frequency: Weekly  
+Start Time: 9am US Central  
+Weekday: Friday
+
+- Token holders: 5% APY
+- Tinyman LP holders (1103290813): 17% APR
+- Tier 1 Dark Coin Champions: 350 $DARKCOIN / week
+- Tier 2 Dark Coin Warriors: 3500 $DARKCOIN / week
+
+*All Dark Coin NFT assets, including DAO, earn weekly $NIKO drops courtesy of our awesome partners Rxelms!*
+
+**Worm - Compost - 1704215461**
+
+Frequency: Weekly  
+Start Time: 6am US Central  
+Weekday: Wednesday
+
+- Tier 1: 100 $CMPST / week
+- Tier 2: 5 $CMPST / week
+
+**Skuli - Snacks - 1488607891**
+
+Frequency: Weekly  
+Start Time: 11am US Central  
+Weekday: Friday
+
+- Tier 1 1-199: 30 $Snacks / week
+- Tier 2 200-499: 20 $Snacks / week
+- Tier 3 500-999: 10 $Snacks / week
+- Tier 4 1000-1500: 5 $Snacks / week
+- Tier 5 HU$H: 30 $Snacks / week
 
 # Dark Coin tokenomics
 
